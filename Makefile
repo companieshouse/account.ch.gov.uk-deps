@@ -1,4 +1,4 @@
-artifact_name   := <service>
+artifact_name   := account.ch.gov.uk-deps
 
 local           := ./local
 
