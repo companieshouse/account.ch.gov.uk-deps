@@ -28,7 +28,7 @@ requires 'CH::MojoX::Plugin::CORS', '==0.36'; # FIXME: repo: CH::MojoX::Plugin::
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::LinkGenerator', '==0.32';
 requires 'CH::MojoX::Plugin::Xslate', '==0.31';
-requires 'CH::MojoX::SignIn::Plugin', '==0.44'; # FIXME: repo: CH::MojoX::SignIn
+requires 'CH::MojoX::SignIn::Plugin', '==0.48'; # FIXME: repo: CH::MojoX::SignIn
 requires 'Crypt::CBC', '==2.33';
 requires 'Crypt::Eksblowfish', '==0.009';
 requires 'Crypt::OpenSSL::RSA', '==0.28';
