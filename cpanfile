@@ -24,7 +24,7 @@ requires 'CH::MojoX::UserPermissions', '==0.31';
 requires 'CH::MojoX::Administration::Plugin', '==0.34'; # FIXME: repo: CH::MojoX::Administration
 requires 'CH::MojoX::Error::Renderer', '==0.31';
 requires 'CH::MojoX::Plugin::API', '==0.40';
-requires 'CH::MojoX::Plugin::Bridge::Authorisation', '>=0.40';
+requires 'CH::MojoX::Plugin::Bridge::Authorisation', '>=0.41';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::CORS', '==0.36'; # FIXME: repo: CH::MojoX::Plugin::Route
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
@@ -52,7 +52,7 @@ requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.30';
 requires 'MojoX::Plugin::PODRenderer', '==0.30';
 requires 'MojoX::Plugin::Statsd', '==0.02';
 requires 'MojoX::Renderer::Xslate', '==0.092'; # FIXME what depends on this?
-requires 'MojoX::Renderer::IncludeLater', '==0.30'; 
+requires 'MojoX::Renderer::IncludeLater', '==0.30';
 requires 'MojoX::Security::Session', '==0.36';
 
 requires 'MojoX::URL::Sign', '==0.30';
