@@ -2,6 +2,9 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
+requires 'Devel::Declare', '==0.006019';
+requires 'Moo', '==2.003006';
+requires 'Locale::Messages', '==1.31';
 requires 'Moose', '==2.2004';
 test_requires 'Readonly', '==1.04';
 requires 'Log::Log4perl', '==1.43';
@@ -16,7 +19,6 @@ requires 'CH::Perl', '==0.31';
 test_requires 'CH::Test', '==0.31';
 requires 'Try::Tiny', '==0.30'; #Must be resolved before MojoX::Renderer::Xslate
 requires 'Config::Any', '==0.32'; # Must be resolved before CH::MojoX::Plugin::Config
-
 requires 'CH::Bcrypt', '==0.31';
 requires 'CH::MojoX::UserPermissions', '==0.31';
 requires 'CH::MojoX::Administration::Plugin', '==0.34'; # FIXME: repo: CH::MojoX::Administration
@@ -28,7 +30,7 @@ requires 'CH::MojoX::Plugin::CORS', '==0.36'; # FIXME: repo: CH::MojoX::Plugin::
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::LinkGenerator', '==0.32';
 requires 'CH::MojoX::Plugin::Xslate', '==0.31';
-requires 'CH::MojoX::SignIn::Plugin', '==0.48'; # FIXME: repo: CH::MojoX::SignIn
+requires 'CH::MojoX::SignIn::Plugin', '==0.49'; # FIXME: repo: CH::MojoX::SignIn
 requires 'Crypt::CBC', '==2.33';
 requires 'Crypt::Eksblowfish', '==0.009';
 requires 'Crypt::OpenSSL::RSA', '==0.28';
