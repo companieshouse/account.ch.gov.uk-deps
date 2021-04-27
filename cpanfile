@@ -19,6 +19,7 @@ requires 'CH::Perl', '==0.31';
 test_requires 'CH::Test', '==0.31';
 requires 'Try::Tiny', '==0.30'; #Must be resolved before MojoX::Renderer::Xslate
 requires 'Config::Any', '==0.32'; # Must be resolved before CH::MojoX::Plugin::Config
+requires 'Crypt::CBC', '==2.33';
 requires 'CH::Bcrypt', '==0.31';
 requires 'CH::MojoX::UserPermissions', '==0.31';
 requires 'CH::MojoX::Administration::Plugin', '==0.34'; # FIXME: repo: CH::MojoX::Administration
@@ -31,7 +32,6 @@ requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::LinkGenerator', '==0.32';
 requires 'CH::MojoX::Plugin::Xslate', '==0.31';
 requires 'CH::MojoX::SignIn::Plugin', '==0.50'; # FIXME: repo: CH::MojoX::SignIn
-requires 'Crypt::CBC', '==2.33';
 requires 'Crypt::Eksblowfish', '==0.009';
 requires 'Crypt::OpenSSL::RSA', '==0.28';
 requires 'Crypt::Rijndael', '==1.12'; # used, but (by design) not required, by JSON::WebEncryption
@@ -40,6 +40,9 @@ requires 'JSON', '==2.90';
 requires 'JSON::WebEncryption', '==0.06';
 requires 'Locale::Simple', '==0.016';
 requires 'Log::Declare', '==0.10';
+requires 'Data::MessagePack::Stream', '==1.04';
+# transient dep of Fluent::Logger which is a transient dep of Log::Log4perl::Appender::Fluent and breaks with 1.0.5
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04';
 requires 'MangoX::Queue', '==0.16';
 requires 'Mojolicious::Plugin::MangoWrapper', '==0.30';
