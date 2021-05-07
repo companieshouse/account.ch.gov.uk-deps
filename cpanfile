@@ -2,8 +2,6 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
-requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
-requires 'MojoX::Plugin::AnyCache', '==0.33';
 requires 'Devel::Declare', '==0.006019';
 requires 'Moo', '==2.003006';
 requires 'Locale::Messages', '==1.31';
@@ -51,6 +49,8 @@ requires 'Mojolicious::Plugin::MangoWrapper', '==0.30';
 requires 'MojoX::JSON::XS', '==0.30';
 requires 'MojoX::Moose::Controller', '==0.30';
 requires 'MojoX::OAuth2', '0.34';
+requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
+requires 'MojoX::Plugin::AnyCache', '==0.33';
 requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.30';
 requires 'MojoX::Plugin::PODRenderer', '==0.30';
 requires 'MojoX::Plugin::Statsd', '==0.02';
