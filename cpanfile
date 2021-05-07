@@ -56,12 +56,12 @@ requires 'MojoX::Plugin::PODRenderer', '==0.30';
 requires 'MojoX::Plugin::Statsd', '==0.02';
 requires 'MojoX::Renderer::Xslate', '==0.092'; # FIXME what depends on this?
 requires 'MojoX::Renderer::IncludeLater', '==0.30';
+requires 'MojoX::Security::Session', '==0.36';
 
 requires 'MojoX::URL::Sign', '==0.30';
 requires 'MooseX::Model', '==0.31';
 requires 'Protocol::Redis::XS', '==0.05'; # used, but (by design) not required, by MojoX::Plugin::AnyCache
 requires 'Text::CSV_XS', '==1.09';
-requires 'MojoX::Security::Session', '==0.36';
 
 test_requires 'Test::Exception', '==0.32';
 test_requires 'Test::Mock::Mango', '==0.09';
