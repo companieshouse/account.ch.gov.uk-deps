@@ -17,8 +17,9 @@ test_requires 'MangoX::EventWrapper', '==0.33';
 requires 'boolean', '==0.32';
 requires 'CH::Perl', '==0.31';
 test_requires 'CH::Test', '==0.31';
-requires 'Try::Tiny', '==0.30'; #Must be resolved before MojoX::Renderer::Xslate
+requires 'Try::Tiny', '==0.31'; #Must be resolved before MojoX::Renderer::Xslate
 requires 'Config::Any', '==0.32'; # Must be resolved before CH::MojoX::Plugin::Config
+requires 'IO::Socket::SSL', '>=1.981';
 requires 'Crypt::CBC', '==2.33';
 requires 'CH::Bcrypt', '==0.31';
 requires 'CH::MojoX::UserPermissions', '==0.31';
