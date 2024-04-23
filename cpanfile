@@ -61,7 +61,7 @@ requires 'MojoX::Security::Session', '==0.36';
 
 requires 'MojoX::URL::Sign', '==0.30';
 requires 'MooseX::Model', '==0.31';
-requires 'Net::CompaniesHouse', '==0.68';
+requires 'Net::CompaniesHouse', '==0.69';
 requires 'Protocol::Redis::XS', '==0.05'; # used, but (by design) not required, by MojoX::Plugin::AnyCache
 requires 'Text::CSV_XS', '==1.09';
 
